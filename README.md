@@ -25,14 +25,14 @@ W and M segments appear automatically once you have history (1+ and 7+ prior day
 
 > Please set up a custom statusline for me. Do the following:
 >
-> 1. Download `statusline.py` from `https://github.com/YOUR_USERNAME/claude-code-cost-clock` and save it to `~/.claude/cost_clock.py`
+> 1. Download `statusline.py` from `https://github.com/amitgupta-ag/claude-code-cost-clock` and save it to `~/.claude/cost_clock.py`
 > 2. Run `chmod +x ~/.claude/cost_clock.py`
 > 3. Run `claude config set --global statusline "python3 ~/.claude/cost_clock.py"` to enable it
 
 Or manually:
 
 ```bash
-curl -o ~/.claude/cost_clock.py https://raw.githubusercontent.com/YOUR_USERNAME/claude-code-cost-clock/main/statusline.py
+curl -o ~/.claude/cost_clock.py https://raw.githubusercontent.com/amitgupta-ag/claude-code-cost-clock/main/statusline.py
 chmod +x ~/.claude/cost_clock.py
 claude config set --global statusline "python3 ~/.claude/cost_clock.py"
 ```
@@ -161,6 +161,6 @@ MIT
 
 ## Author
 
-YOUR_NAME — [your website]
+Amit Gupta — [your website]
 
 Built collaboratively with Claude Sonnet 4.6.
